@@ -9,8 +9,8 @@ API to find list of upcoming movies and its tweets
 ```
 
 ```
-../bollywood/upcoming/tweets - showes upcoming Bollywood movies
-../tollywood/upcoming/tweets - showes upcoming South Indian(Tamil & Telugu) movies 
-../hollywood/upcoming/tweets - showes upcoming Hollywood movies 
+../bollywood/upcoming/tweets - showes user tweets of upcoming Bollywood movies
+../tollywood/upcoming/tweets - showes user tweets of upcoming South Indian(Tamil & Telugu) movies 
+../hollywood/upcoming/tweets - showes user tweets of upcoming Hollywood movies 
 ```
 
