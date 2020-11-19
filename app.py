@@ -144,9 +144,10 @@ def tollywood_upcoming_tweets():
             tollywood[ted]={}
             tollywood[ted]['MovieName']=k
             tollywood[ted]['TweetBy']=tweet.user.screen_name
+            tollywood[ted]['TweetID']=tweet.user.id_str
             tollywood[ted]['TweetLocation']= tweet.user.location
             tollywood[ted]['Tweet']=tweet.full_text
-            t= [search_words,tweet.user.screen_name, tweet.user.location,tweet.full_text]
+            t= [search_words,tweet.user.screen_name, tweet.user.id_str,tweet.user.location,tweet.full_text]
             users_locs.append(t)
             ted+=1
     return tollywood
@@ -187,9 +188,10 @@ def bollywood_upcoming_tweets():
             tollywood[ted]={}
             tollywood[ted]['MovieName']=k
             tollywood[ted]['TweetBy']=tweet.user.screen_name
+            tollywood[ted]['TweetID']=tweet.user.id_str
             tollywood[ted]['TweetLocation']= tweet.user.location
             tollywood[ted]['Tweet']=tweet.full_text
-            t= [search_words,tweet.user.screen_name, tweet.user.location,tweet.full_text]
+            t= [search_words,tweet.user.screen_name, tweet.user.id_str,tweet.user.location,tweet.full_text]
             users_locs.append(t)
             ted+=1           
     return tollywood
@@ -230,9 +232,10 @@ def hollywood_upcoming_tweets():
             tollywood[ted]={}
             tollywood[ted]['MovieName']=k
             tollywood[ted]['TweetBy']=tweet.user.screen_name
+            tollywood[ted]['TweetID']=tweet.user.id_str
             tollywood[ted]['TweetLocation']= tweet.user.location
             tollywood[ted]['Tweet']=tweet.full_text
-            t= [search_words,tweet.user.screen_name, tweet.user.location,tweet.full_text]
+            t= [search_words,tweet.user.screen_name, tweet.user.id_str,tweet.user.location,tweet.full_text]
             users_locs.append(t)
             ted+=1           
     return tollywood
